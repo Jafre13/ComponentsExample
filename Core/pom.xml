@@ -30,6 +30,31 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>jaf.components.EvenOddApplication</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.3.1</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>
+                                jaf.components.EvenOddApplication
+                            </mainClass>
+                        </manifest>
+                    </archive>
+                    <outputDirectory>../jars</outputDirectory>
+                </configuration>
             </plugin>
         </plugins>
     </build>
