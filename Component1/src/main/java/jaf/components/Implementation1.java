@@ -8,7 +8,7 @@ public class Implementation1 implements Functionality {
 
     @Override
     public String doStuff() {
-        return null;
+        return "HELLO OTHER WORLD";
     }
 
     public static void main(String[] args) {

@@ -17,10 +17,10 @@
     </parent>
 
     <modules>
+        <module>Core</module>
         <module>Component1</module>
         <module>Component2</module>
         <module>Shared</module>
-        <module>Core</module>
     </modules>
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

@@ -8,10 +8,10 @@
         <version>2.7.4</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <modelVersion>4.0.0</modelVersion>
 
     <groupId>jaf.components</groupId>
     <artifactId>Core</artifactId>
+    <modelVersion>4.0.0</modelVersion>
 
     <dependencies>
         <dependency>
@@ -49,11 +49,11 @@
                     <archive>
                         <manifest>
                             <mainClass>
-                                jaf.components.EvenOddApplication
+                                org.springframework.boot.loader.PropertiesLauncher
                             </mainClass>
                         </manifest>
                     </archive>
-                    <outputDirectory>../jars</outputDirectory>
+<!--                    <outputDirectory>../jars</outputDirectory>-->
                 </configuration>
             </plugin>
         </plugins>
