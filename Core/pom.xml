@@ -23,6 +23,18 @@
             <artifactId>Shared</artifactId>
             <version>${project.version}</version>
         </dependency>
+        <dependency>
+            <groupId>jaf.components</groupId>
+            <artifactId>Component1</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>jaf.components</groupId>
+            <artifactId>Component2</artifactId>
+            <version>${project.version}</version>
+            <scope>runtime</scope>
+        </dependency>
     </dependencies>
 
     <build>
